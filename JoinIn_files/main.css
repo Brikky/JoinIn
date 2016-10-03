@@ -30,7 +30,6 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         color: #f7fff7;
         position: relative;
         text-align: center;
-        background-color: black;
     }
     #nav-btns {
         float: left;
@@ -73,8 +72,7 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
     .blurbText {
         color: #343434;
         font-weight: 100;
-        margin: 0;
-          width: 60%;
+        margin: 0 auto;
     }
     .likes {
         color: #343434;
@@ -83,7 +81,6 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         color: #343434;
         font-weight: 300;
         margin-left: 10%;
-
     }
     .deleteBlurbBtn {
         background-color: #2ec4b6;

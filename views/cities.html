@@ -26,9 +26,9 @@
 
 
                 <a href="/">
-                    <button type="button" id="homeBtn">Home Page</button>
+                    <button type="button" id="homeBtn"><i class="fa fa-home" aria-hidden="true"></i></button>
                 </a>
-                <button type="button" id="newBlurbBtn" name="createBtn">New Blurb</button>
+                <button type="button" id="newBlurbBtn" name="createBtn"></button>
             </div>
     </div>
 
@@ -53,7 +53,7 @@
                         <div class="form-group">
                             <label hidden for="blurbText">Blurb:</label>
                             <div>
-                                <input id="blurbText" name="blurbText" type="text" placeholder="Say it!" class="form-control input-md">
+                                <input id="blurbText" name="blurbText" type="text"  maxlength = "100" placeholder="Say it! (In 100 or fewer characters)" class="form-control input-md">
 
                             </div>
                         </div>
@@ -73,10 +73,12 @@
     {{#each city.blurbs}}
     <div class="blurb-box">
         <h4 class="posterName">{{poster}}</h4>
-        <p class="blurbText">{{textContent}}</p>
-        <button type="button" data={{_id}} class="deleteBlurbBtn" name="deleteBtn">X</button>
+        <div>
+
+        </div><p class="blurbText">{{textContent}}</p>
+        <button type="button" data={{_id}} class="deleteBlurbBtn" name="deleteBtn"><i class="fa fa-trash" aria-hidden="true"></i></button>
         <button type="button" data={{_id}} class="likeBlurbBtn" name="likeBtn">
-            <p class="likes">+<i class="fa fa-hand-peace-o" aria-hidden="true"></i> {{likes}}</p></button>
+            <p class="likes">+<i class="fa fa-hand-peace-o" aria-hidden="true"></i><br /> {{likes}}</p></button>
     </div>
     {{/each}}
     </script>
