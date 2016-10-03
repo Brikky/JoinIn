@@ -10,14 +10,13 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
     }
     header {
         background-color: black;
-        margin-top: -15vmin;
+        margin: 0;
     }
-    .joinIn-logo{
+    .joinIn-logo {
         display: block;
         width: 100vw;
         height: 50vw;
         background-color: black;
-        margin-top: 40px;
         position: relative;
     }
     .city-container {
@@ -32,30 +31,47 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         background-color: black;
         position: relative;
     }
-
     .city-name {
+        margin-top: 25px;
+        margin-bottom: -10px;
         font-size: 10min;
         color: #f7fff7;
         position: relative;
         text-align: center;
         background-color: black;
     }
+
+    .inline {
+        display: inline;
+    }
+
+    .center {
+        text-align: center;
+        margin: 1em;
+    }
+
+    .right {
+        position: relative;
+        right: -70%;
+    }
+
     #nav-btns {
         float: left;
     }
+
     #homeBtn {
         font-size: 60px;
         background-color: #d9f2ed;
         color: rgb(46, 196, 182);
         background-color: rgba(0, 0, 0, 0) !important;
-        border: none;
+        border: 0;
         width: 100px;
         height: 100px;
     }
     #newBlurbBtn {
         color: #343434;
         background-color: rgba(0, 0, 0, 0) !important;
-        border: none;
+        border: 0;
         background-image: url("/images/new-blurb.png");
         background-size: 100% 100%;
         width: 100px;
@@ -72,7 +88,7 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
     .blurb-box {
         background-color: #e9e9e9;
         margin: 5% auto;
-        padding: 5px;
+        padding: 10px;
         border-radius: 5px;
         box-shadow: 10px 10px 5px grey;
         width: 90vw;
@@ -82,7 +98,7 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         color: #343434;
         font-weight: 100;
         margin: 0;
-          width: 60%;
+        width: 60%;
     }
     .likes {
         color: #343434;
@@ -91,7 +107,6 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         color: #343434;
         font-weight: 300;
         margin-left: 10%;
-
     }
     .deleteBlurbBtn {
         background-color: #2ec4b6;
@@ -128,7 +143,7 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         box-shadow: 2px 2px 2px grey;
     }
     button {
-        border: none;
+        border: 0;
     }
     fieldset {
         display: flex;

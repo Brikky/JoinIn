@@ -9,11 +9,11 @@ var SanFrancisco = {
         lng: 1
     },
     name: "San Francisco",
-    logo: "/images/san-francisco.png", //url to image
+    logo: "/images/logo.png", //url to image
 
     blurbs: [{
         poster: "Brandon",
-        textContent: "Hey I made a post",
+        textContent: "This app is bae.",
         likes: 100,
         imgPath: ""
     }, {
@@ -35,7 +35,7 @@ var NewYorkCity = {
         lng: 1
     },
     name: "New York City",
-    logo: "/images/new-york.png", //url to image
+    logo: "/images/logo.png", //url to image
 
     blurbs: [{
         poster: "Claire",
@@ -44,7 +44,7 @@ var NewYorkCity = {
         imgPath: ""
     }, {
         poster: "Nathan",
-        textContent: "Is that a !@$% 4 space tab?!",
+        textContent: "Is that a !@$% trailing whitespace?!",
         likes: 1,
         imgPath: ""
     }, {
@@ -61,16 +61,16 @@ var Seattle = {
         lng: 1
     },
     name: "Seattle",
-    logo: "/images/seattle.png", //url to image
+    logo: "/images/logo.png", //url to image
 
     blurbs: [{
-        poster: "Toby",
-        textContent: "Seattle's best coffee is my favorite",
+        poster: "Neda",
+        textContent: "Where's Theo?",
         likes: 9,
         imgPath: ""
     }, {
         poster: "Teddy",
-        textContent: "I could use a Noah's Bagel right about now",
+        textContent: "I could really use a Noah's Bagel right about now",
         likes: 55,
         imgPath: ""
     }, {
@@ -81,23 +81,23 @@ var Seattle = {
     }]
 }
 
-db.City.create(SanFrancisco, function(err, city){
-  if(err){
-    return console.log("Error!", err);
-  }
-  console.log("new city", city)
+db.City.create(SanFrancisco, function(err, city) {
+    if (err) {
+        return console.log("Error!", err);
+    }
+    console.log("new city", city)
 });
 
-db.City.create(NewYorkCity, function(err, city){
-  if(err){
-    return console.log("Error!", err);
-  }
-  console.log("new city", city)
+db.City.create(NewYorkCity, function(err, city) {
+    if (err) {
+        return console.log("Error!", err);
+    }
+    console.log("new city", city)
 });
 
-db.City.create(Seattle, function(err, city){
-  if(err){
-    return console.log("Error!", err);
-  }
-  console.log("new city", city)
+db.City.create(Seattle, function(err, city) {
+    if (err) {
+        return console.log("Error!", err);
+    }
+    console.log("new city", city)
 });

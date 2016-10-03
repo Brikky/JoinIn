@@ -64,7 +64,6 @@ $(document).ready(function() {
 });
 
 function newBlurbSuccess(json) {
-    console.log(ß"new blurb", json);
     var newBlurb = "<div class='blurb-box'><h4 class='posterName'>" + json.poster + "</h4><p class='blurbText'>" + json.textContent + "</p><button type='button' data='" + json._id + "' class='deleteBlurbBtn' name='deleteBtn'><i class='fa fa-trash' aria-hidden='true'></i></button><button type='button' data='" + json._id + "' class='likeBlurbBtn' name='likeBtn'><p class='likes'>+<i class='fa fa-hand-peace-o' aria-hidden='true'></i>&nbsp;" + json.likes + "</p></button></div>";
 
     $(".topButtons").after(newBlurb);
