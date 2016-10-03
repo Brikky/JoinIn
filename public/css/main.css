@@ -39,7 +39,6 @@ body {
     background-color: #d9f2ed;
     color: #343434;
 }
-#blurbModal {}
 .topButtons {
     text-align: center;
 }
@@ -91,3 +90,8 @@ body {
     button {
         margin: 0 auto;
     }
+
+fieldset{
+  display: flex;
+  align-content: space-between;
+}

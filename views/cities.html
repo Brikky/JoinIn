@@ -19,10 +19,8 @@
     <div id="city-container" class="wrapper">
         <script id="city-template" type="text/x-handlebars-template">
             <header>
-                <a href="#">
-                    <img src="{{city.logo}}" class="city-logo" alt="City Logo">
-                    <h1 class="city-name" data={{city._id}}>{{city.name}}</h1>
-                </a>
+                <img src="{{city.logo}}" class="city-logo" alt="City Logo">
+                <h1 class="city-name" data={{city._id}}>{{city.name}}</h1>
             </header>
             <div class="topButtons">
 
@@ -41,21 +39,21 @@
                     <h4 class="modal-title">Share a Blurb!</h4>
                 </div>
                 <div class="modal-body">
-                    <fieldset class='form-horizontal'>
+                    <fieldset class='form'>
 
                         <!-- Text input-->
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="blurberName">Name:</label>
-                            <div class="col-md-4">
-                                <input id="blurberName" name="blurberName" type="text" placeholder="" class="form-control input-md" required="">
+                            <label hidden for="blurberName">Name:</label>
+                            <div>
+                                <input id="blurberName" name="blurberName" type="text" placeholder="Name" class="form-control input-md" required="">
                             </div>
                         </div>
 
                         <!-- Text input-->
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="blurbText">Blurb:</label>
-                            <div class="col-md-4">
-                                <input id="blurbText" name="blurbText" type="text" placeholder="" class="form-control input-md">
+                            <label hidden for="blurbText">Blurb:</label>
+                            <div>
+                                <input id="blurbText" name="blurbText" type="text" placeholder="Say it!" class="form-control input-md">
 
                             </div>
                         </div>
