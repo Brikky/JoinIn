@@ -35,7 +35,6 @@ $(document).ready(function() {
             success: likeBlurbSuccess,
             error: likeBlurbError
         })
-        // $("#city-container").off("click", ".likeBlurbBtn");
     });
 
     $("#city-container").on("click", "#newBlurbBtn", function() {
@@ -43,9 +42,9 @@ $(document).ready(function() {
     });
 
     $("#city-container").on("click", "#saveBlurb", function() {
-      console.log('save ws clicked');
-      var blurber = $("#blurberName").val();
-      var blurbText = $("#blurbText").val();
+        console.log('save was clicked');
+        var blurber = $("#blurberName").val();
+        var blurbText = $("#blurbText").val();
 
         $('#blurbModal').modal('toggle');
         console.log(cityId);
@@ -53,41 +52,44 @@ $(document).ready(function() {
         $.ajax({
             method: "POST",
             url: "/api/cities/" + cityId + "/blurbs/",
-            data: {poster: blurber, textContent: blurbText},
+            data: {
+                poster: blurber,
+                textContent: blurbText
+            },
             success: newBlurbSuccess,
             error: newBlurbError
         })
 
-        // $("#city-container").off("click", ".likeBlurbBtn");
     });
 });
 
-function newBlurbSuccess(json){
-  console.log("new blurb",json);
-  var newBlurb = "<div class='blurb-box'><h4 class='posterName'>"+json.poster+"</h4><p class='blurbText'>"+json.textContent+"</p><button type='button' data='"+json._id+"' class='deleteBlurbBtn' name='deleteBtn'><i class='fa fa-trash' aria-hidden='true'></i></button><button type='button' data='"+json._id+"' class='likeBlurbBtn' name='likeBtn'><p class='likes'>+<i class='fa fa-hand-peace-o' aria-hidden='true'></i>&nbsp;"+json.likes+"</p></button></div>";
+function newBlurbSuccess(json) {
+    console.log(ß"new blurb", json);
+    var newBlurb = "<div class='blurb-box'><h4 class='posterName'>" + json.poster + "</h4><p class='blurbText'>" + json.textContent + "</p><button type='button' data='" + json._id + "' class='deleteBlurbBtn' name='deleteBtn'><i class='fa fa-trash' aria-hidden='true'></i></button><button type='button' data='" + json._id + "' class='likeBlurbBtn' name='likeBtn'><p class='likes'>+<i class='fa fa-hand-peace-o' aria-hidden='true'></i>&nbsp;" + json.likes + "</p></button></div>";
 
-  $(".topButtons").after(newBlurb);
-
-}
-function newBlurbError(){
-  console.log('new error');
-}
-
-function likeBlurbError(){
-  console.log("like blurb error");
-}
-
-function likeBlurbSuccess(blurb){
-  $('*[data='+blurb._id+']').siblings(".likeBlurbBtn").html("<p class='likes'>+<i class='fa fa-hand-peace-o' aria-hidden='true'></i><br />"+blurb.likes+"</p>");
+    $(".topButtons").after(newBlurb);
 
 }
 
-function deleteBlurbError(){
-  console.log('delete blurb error');
+function newBlurbError() {
+    console.log('new error');
 }
 
-function deleteBlurbSucess(id){
-  $('*[data='+id+']').closest(".blurb-box").hide();
+function likeBlurbError() {
+    console.log("like blurb error");
+}
+
+function likeBlurbSuccess(blurb) {
+    $('*[data=' + blurb._id + ']').siblings(".likeBlurbBtn").html("<p class='likes'>+<i class='fa fa-hand-peace-o' aria-hidden='true'></i><br />" + blurb.likes + "</p>");
+
+}
+
+function deleteBlurbError() {
+    console.log('delete blurb error');
+}
+
+function deleteBlurbSucess(id) {
+    $('*[data=' + id + ']').closest(".blurb-box").hide();
 }
 // helper function to render all posts to view
 // note: we empty and re-render the collection each time our post data changes

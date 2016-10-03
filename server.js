@@ -125,11 +125,7 @@ app.delete('/api/cities/:id/blurbs/:blurbId', function deleteBlurb(req, res) {
         city.save();
     });
     res.send(blurbId);
-
 });
-
-
-
 app.put('/api/cities/:id/blurbs/:blurbId', function updateBlurb(req, res) {
     var blurbId = req.params.blurbId;
     var cityId = req.params.id;
@@ -138,7 +134,7 @@ app.put('/api/cities/:id/blurbs/:blurbId', function updateBlurb(req, res) {
             _id: cityId
         },
         function(err, city) {
-          var myBlurb = {};
+            var myBlurb = {};
             city.blurbs.forEach(function(blurb) {
                 if (blurb._id == blurbId) {
                     blurb.likes += 1;
@@ -146,9 +142,11 @@ app.put('/api/cities/:id/blurbs/:blurbId', function updateBlurb(req, res) {
                 }
             });
             city.save();
-            res.json({_id: blurbId,likes: myBlurb.likes});
+            res.json({
+                _id: blurbId,
+                likes: myBlurb.likes
+            });
         });
-
 });
 
 
