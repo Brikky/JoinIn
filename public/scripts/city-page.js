@@ -64,7 +64,7 @@ $(document).ready(function() {
 
 function newBlurbSuccess(json){
   console.log("new blurb",json);
-  var newBlurb ="<div class='blurb-box'><h4 class='posterName'>"+json.poster+"</h4><p class='blurbText'>"+json.textContent+"</p><h5 class='likes'> Likes:"+json.likes+"</h5><button type='button' data='"+ json._id +"' class='deleteBlurbBtn' name='deleteBtn'>X</button><button type='button' data='"+json._id+ "' class='likeBlurbBtn' name='likeBtn'>+1</button></div>";
+  var newBlurb = "<div class='blurb-box'><h4 class='posterName'>"+json.poster+"</h4><p class='blurbText'>"+json.textContent+"</p><button type='button' data='"+json._id+"' class='deleteBlurbBtn' name='deleteBtn'>X</button><button type='button' data='"+json._id+"' class='likeBlurbBtn' name='likeBtn'><p class='likes'>+<i class='fa fa-hand-peace-o' aria-hidden='true'></i>"+json.likes+"</p></button></div>";
 
   $(".topButtons").after(newBlurb);
 
@@ -78,7 +78,7 @@ function likeBlurbError(){
 }
 
 function likeBlurbSuccess(blurb){
-  $('*[data='+blurb._id+']').siblings(".likes").html("Likes: "+blurb.likes);
+  $('*[data='+blurb._id+']').siblings(".likeBlurbBtn").html("<p class='likes'>+<i class='fa fa-hand-peace-o' aria-hidden='true'></i>"+blurb.likes+"</p>");
 
 }
 
