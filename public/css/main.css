@@ -79,7 +79,7 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
     }
     .topButtons {
         width: 60vw;
-        margin: 0 auto;
+        margin: 5% auto;
         text-align: center;
         display: flex;
         align-items: center;
@@ -148,4 +148,7 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
     fieldset {
         display: flex;
         align-content: space-between;
+    }
+    a{
+      text-decoration: none;
     }
