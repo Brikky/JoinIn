@@ -12,6 +12,14 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         background-color: black;
         margin-top: -15vmin;
     }
+    .joinIn-logo{
+        display: block;
+        width: 100vw;
+        height: 50vw;
+        background-color: black;
+        margin-top: 40px;
+        position: relative;
+    }
     .city-container {
         width: 100vw !important;
         margin-left: 0 !important;
