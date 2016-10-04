@@ -18,12 +18,12 @@
   <body>
     <div id="city-container" class="wrapper">
       <script id="city-template" type="text/x-handlebars-template">
-        
+
         <header>
           <img src="{{city.logo}}" class="city-logo" alt="City Logo">
           <h1 class="city-name" data={{city._id}}>{{city.name}}</h1>
         </header>
-            
+
         <div class="topButtons">
           <a href="/">
             <button type="button" id="homeBtn"><i class="fa fa-home" aria-hidden="true"></i></button>
@@ -56,19 +56,21 @@
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary" id="saveBlurb">Share</button>
               </div>
-            <!-- /.modal-content -->    
+            <!-- /.modal-content -->
             </div>
-          <!-- /.modal-dialog -->   
+          <!-- /.modal-dialog -->
           </div>
-        <!-- /.modal -->    
+        <!-- /.modal -->
         </div>
-    
+
         {{#each city.blurbs}}
         <div class="blurb-box">
           <h4 class="posterName">{{poster}}</h4>
           <p class="blurbText">{{textContent}}</p>
           <button type="button" data={{_id}} class="deleteBlurbBtn" name="deleteBtn"><i class="fa fa-trash" aria-hidden=" true"></i></button>
-          <button type="button" data={{_id}} class="likeBlurbBtn" name="likeBtn"><p class="likes">+<i class="fa fa-hand-peace-o" aria-hidden="true"></i><br /> {{likes}}</p></button>
+          <button type="button" data={{_id}} class="likeBlurbBtn" name="likeBtn"><p class="likes">+</p>
+            <i class="fa fa-hand-peace-o" aria-hidden="true"></i><br /><p class = "likes">
+            {{likes}}</p></button>
         </div>
         {{/each}}
       </script>

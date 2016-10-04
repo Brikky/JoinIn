@@ -94,6 +94,7 @@ header {
   box-shadow: 10px 10px 5px grey;
   width: 90vw;
   max-width: 70vmax;
+  min-height: 6vw !important;
 }
 
 .blurbText {
@@ -101,6 +102,7 @@ header {
   font-weight: 100;
   margin: 0;
   width: 60%;
+
 }
 
 .likes {
@@ -108,10 +110,7 @@ header {
   padding: 0;
   margin: 0;
   color: #343434;
-  width: 5vw;
-  height: 5vw;
-  min-width: 50px;
-  min-height: 50px;
+  display: inline;
   font-size: 4vmin;
 }
 
@@ -127,7 +126,7 @@ header {
   font-size: 6vmin;
   color: #343434;
   width: 5vw;
-  height: 5vw;
+  height: 5.5vw;
   min-width: 50px;
   min-height: 50px;
   font-align: center;
@@ -152,7 +151,7 @@ header {
   font-size: 4vmin;
   color: #343434;
   width: 7.5vw;
-  height: 5vw;
+  height: 5.5vw;
   min-width: 50px;
   min-height: 50px;
   font-align: center;
@@ -178,4 +177,8 @@ a {
 
 .city-name:hover {
   color: rgba(255,215,24,1);
+}
+
+i{
+  display: inline;
 }
