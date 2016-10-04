@@ -95,14 +95,15 @@ header {
   width: 90vw;
   max-width: 70vmax;
   min-height: 10vw !important;
+  display: relative;
 }
 
 .blurbText {
+  display: inline-block;
   color: #343434;
   font-weight: 100;
-  margin: 0;
   width: 60%;
-  font-size: 150%;
+  font-size: 4vmin;
 }
 
 .likes {
@@ -132,16 +133,9 @@ header {
   font-align: center;
   float: right;
   position: relative;
-  bottom: 45px;
+  bottom: 20px;
   margin: 5px;
   box-shadow: 2px 2px 2px grey;
-}
-
-.homeSubTitle {
-  font-weight: 200;
-  color: rgba(46, 196, 182,.7);
-  font-style: italic;
-  text-align: center;
 }
 
 .likeBlurbBtn {
@@ -157,9 +151,15 @@ header {
   font-align: center;
   float: right;
   position: relative;
-  bottom: 45px;
+  bottom: 20px;
   margin: 5px;
   box-shadow: 2px 2px 2px grey;
+}
+.homeSubTitle {
+  font-weight: 200;
+  color: rgba(46, 196, 182,.7);
+  font-style: italic;
+  text-align: center;
 }
 
 button {
