@@ -1,4 +1,4 @@
-#Project 1: Joinin
+#Project 1: [Joinin](https://join-in-app.herokuapp.com/)
 ####Created by Lynette Durán & Brandon Kerr
 A Social app that allows users to share Blurbs with each other based on location.
 
@@ -9,6 +9,12 @@ Technologies Used
 * Bootstrap
 * Javascript
 * jQuery
+
+##Planning:
+[User Stories](https://docs.google.com/document/d/1bB7cZLRpcKMa4wOch1ewGnsfvHHRYO0FEFSNpPJChE8/edit?usp=sharing)
+[Trello](https://trello.com/b/mpN5bIrC/joinin)
+[Wireframes](https://drive.google.com/drive/folders/0B-akLkaoR5tFVXZ6di1qUG03Xzg?usp=sharing)
+ 
 
 ##Use:
 ![home page](http://i.imgur.com/KaBlhWh.png "Home Page and City Index for SF")
