@@ -11,8 +11,8 @@ Technologies Used
 * jQuery
 
 ##Use:
-![home page](http://i.imgur.com/0begHmN.png "Home Page")
-![city main page](http://i.imgur.com/9fS5mUm.png "City Main Page")
+![home page](http://i.imgur.com/0begHmN.png "Home Page" =250x)
+![city main page](http://i.imgur.com/9fS5mUm.png "City Main Page" = 250x)
 
 Upon visiting the app, users encounter the home screen which displays all supported cities, and each citie's most recent blurb.
 
