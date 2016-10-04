@@ -165,5 +165,8 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         align-content: space-between;
     }
     a{
-      text-decoration: none;
+      text-decoration: none !important;
+    }
+    .city-name:hover{
+      color: rgba(255,215,24,1);
     }
