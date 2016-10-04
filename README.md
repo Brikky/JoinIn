@@ -9,6 +9,7 @@ Technologies Used
 * Bootstrap
 * Javascript
 * jQuery
+* Node.js
 * Express
 * Mongoose
 * MongoDB
@@ -34,6 +35,7 @@ Clicking on a city name takes the user to that city's index page, where all blur
 * Completing all server routes successfully
 * Learning more advanced Git features
 * Designing our own graphics
+* Using embedded relationships
 
 ##Challenges
 * Dealing with overriding Bootstrap
@@ -49,6 +51,10 @@ Clicking on a city name takes the user to that city's index page, where all blur
 Add user accounts, users can only delete their own posts.
 
 Design process for creating new cities: users can request new cities and after 10 requests new city is generated
+
+Add tags to posts
+
+Develop algorithm to display the lastest/most liked blurbs first
 
 ##Code Examples
 
