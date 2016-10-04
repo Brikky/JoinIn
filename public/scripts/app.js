@@ -16,7 +16,6 @@ $(document).ready(function(){
     success: handleSuccess,
     error: handleError
   });
-
 });
 
 // helper function to render all posts to view
