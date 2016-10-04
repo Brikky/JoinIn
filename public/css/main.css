@@ -101,7 +101,15 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         width: 60%;
     }
     .likes {
+      text-align: center;
+      padding: 0;
+      margin: 0;
         color: #343434;
+        width: 5vw;
+        height: 5vw;
+        min-width: 50px;
+        min-height: 50px;
+        font-size: 4vmin;
     }
     .posterName {
         color: #343434;
@@ -109,9 +117,10 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         margin-left: 10%;
     }
     .deleteBlurbBtn {
+      padding: 0;
         background-color: #2ec4b6;
         border-radius: 10%;
-        font-size: 4vmin;
+        font-size: 6vmin;
         color: #343434;
         width: 5vw;
         height: 5vw;
@@ -124,8 +133,15 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         margin: 5px;
         box-shadow: 2px 2px 2px grey;
     }
-    
+    .homeSubTitle{
+      font-weight: 200;
+      color: rgba(46, 196, 182,.7);
+      font-style: italic;
+      text-align: center;
+    }
+
     .likeBlurbBtn {
+      padding: 0;
         background-color: #2ec4b6;
         border-radius: 10%;
         font-size: 4vmin;
@@ -139,8 +155,6 @@ $color5: rgba(52, 52, 52, 1); Dark Brown/Black
         position: relative;
         bottom: 65px;
         margin: 5px;
-        /*display: flex;
-        align-items: center;*/
         box-shadow: 2px 2px 2px grey;
     }
     button {
