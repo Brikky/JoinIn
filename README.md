@@ -12,7 +12,9 @@ Technologies Used
 
 ##Planning:
 [User Stories](https://docs.google.com/document/d/1bB7cZLRpcKMa4wOch1ewGnsfvHHRYO0FEFSNpPJChE8/edit?usp=sharing)
+
 [Trello](https://trello.com/b/mpN5bIrC/joinin)
+
 [Wireframes](https://drive.google.com/drive/folders/0B-akLkaoR5tFVXZ6di1qUG03Xzg?usp=sharing)
  
 
