@@ -11,7 +11,7 @@ Technologies Used
 * jQuery
 
 ##Use:
-![home page](blob:http://imgur.com/b246e1bb-8cbe-45e2-b74a-f16786069044 "Home Page and City Index for SF")
+![home page](http://i.imgur.com/n6zpjv8.png "Home Page and City Index for SF")
 
 
 Upon visiting the app, users encounter the home screen which displays all supported cities, and each citie's most recent blurb.
