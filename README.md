@@ -42,6 +42,11 @@ Clicking on a city name takes the user to that city's index page, where all blur
 * Prioritize goals early, stay focused on what's most important, what as the biggest impact/implementation time ratio
 * Reference trello/wireframes early, focusing on getting out the initial product then work on refinements because they'll never end
 
+##Future Work
+Add user accounts, users can only delete their own posts.
+
+Design process for creating new cities: users can request new cities and after 10 requests new city is generated
+
 ##Code Examples
 
 ```JavaScript
