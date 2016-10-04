@@ -9,6 +9,9 @@ Technologies Used
 * Bootstrap
 * Javascript
 * jQuery
+* Express
+* Mongoose
+* MongoDB
 
 ##Planning:
 [User Stories](https://docs.google.com/document/d/1bB7cZLRpcKMa4wOch1ewGnsfvHHRYO0FEFSNpPJChE8/edit?usp=sharing)
