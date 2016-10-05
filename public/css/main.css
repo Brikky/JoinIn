@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-color:none;
   margin: 0;
 }
 
@@ -11,7 +11,7 @@ header {
   display: block;
   width: 100vw;
   height: 50vw;
-  background-color: black;
+  background-color: none;
   position: relative;
 }
 
@@ -25,7 +25,7 @@ header {
   display: block;
   width: 100vw;
   height: 50vw;
-  background-color: black;
+  background-color: none;
   position: relative;
 }
 
@@ -79,6 +79,15 @@ header {
   width: 100px;
   height: 100px;
   margin: 0 50px
+}
+
+.introVid{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  
+  width: 100vw;
+  z-index: -100;
 }
 
 .topButtons {
@@ -164,6 +173,7 @@ header {
   color: rgba(46, 196, 182,.7);
   font-style: italic;
   text-align: center;
+  background-color: black;
 }
 
 button {
