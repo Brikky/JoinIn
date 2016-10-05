@@ -9,7 +9,7 @@ var SanFrancisco = {
         lng: 1
     },
     name: "San Francisco",
-    logo: "/images/logo.png", //url to image
+    logo: "/images/logo.svg", //url to image
 
     blurbs: [{
         poster: "Brandon",
@@ -35,7 +35,7 @@ var NewYorkCity = {
         lng: 1
     },
     name: "New York City",
-    logo: "/images/logo.png", //url to image
+    logo: "/images/logo.svg", //url to image
 
     blurbs: [{
         poster: "Claire",
@@ -61,7 +61,7 @@ var Seattle = {
         lng: 1
     },
     name: "Seattle",
-    logo: "/images/logo.png", //url to image
+    logo: "/images/logo.svg", //url to image
 
     blurbs: [{
         poster: "Neda",
