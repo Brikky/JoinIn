@@ -7,8 +7,10 @@ Technologies Used
 * HTML
 * CSS
 * Bootstrap
+* Handlebars
 * Javascript
 * jQuery
+* Ajax
 * Node.js
 * Express
 * Mongoose
@@ -30,7 +32,7 @@ Upon visiting the app, users encounter the home screen which displays all suppor
 
 Clicking on a city name takes the user to that city's index page, where all blurbs are displayed. From this page users can create, delete, and +1 Blurbs. 
 
-##Triumps
+##Triumphs
 * Designing mobile-first
 * Completing all server routes successfully
 * Learning more advanced Git features
