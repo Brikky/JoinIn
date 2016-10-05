@@ -24,7 +24,7 @@ function render () {
   // empty existing posts from view
   $cityList.empty();
 
-  // pass `allFish` into the template function
+  // pass `allCities` into the template function
   var cityHtml = template({ city: allCities });
 
   // append html to the view

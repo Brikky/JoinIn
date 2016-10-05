@@ -27,12 +27,13 @@
         {{#each city}}
         <a href="/cities/{{_id}}">
           <h1 class="city-name" data={{_id}}>{{name}}</h1>
-        </a>
+
         <div class="blurb-box">
           <h4 class="inline">{{blurbs.0.poster}} <h6 class = "inline">from {{name}} says:</h6></h4>
           <p class="center">"{{blurbs.0.textContent}}"</p>
           <h5 class = "right"><i class="fa fa-hand-peace-o" aria-hidden="true"></i> {{blurbs.0.likes}}</h5>
         </div>
+        </a>
         {{/each}}
       </script>
     </div>
