@@ -3,7 +3,7 @@ ___
 A Social app that allows users to share Blurbs with each other based on location.
 Designed and developed over week long sprint.
 
-### URL: [join-in-app.herokuapp.com/](https://join-in-app.herokuapp.com/)
+### URL: [join-in-app.herokuapp.com](https://join-in-app.herokuapp.com/)
 
 ### Features
 * Full functionality without user accounts
