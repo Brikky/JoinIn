@@ -83,7 +83,9 @@ ___
 ### Screenshots
 ___
 Main Page
+
 ![Index](http://i.imgur.com/vwuqST9.png)
 
 City's Posts Page
+
 ![City Main](http://i.imgur.com/OSyV3UF.png)
