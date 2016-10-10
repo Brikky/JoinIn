@@ -4,6 +4,7 @@ A Social app that allows users to share Blurbs with each other based on location
 
 Technologies Used
 -----------
+|----------------|-------------|
 | * HTML         | * jQuery    |
 | * CSS          | * Ajax      |
 | * Bootstrap    | * Node.js   |
