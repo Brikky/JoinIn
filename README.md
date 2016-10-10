@@ -4,17 +4,12 @@ A Social app that allows users to share Blurbs with each other based on location
 
 Technologies Used
 -----------
-* HTML
-* CSS
-* Bootstrap
-* Handlebars
-* Javascript
-* jQuery
-* Ajax
-* Node.js
-* Express
-* Mongoose
-* MongoDB
+| * HTML         | * jQuery    |
+| * CSS          | * Ajax      |
+| * Bootstrap    | * Node.js   |
+| * Handlebars   | * Express   |
+| * Javascript   | * Mongoose  |
+| * MongoDB      |             |
 
 ##Planning:
 [User Stories](https://docs.google.com/document/d/1bB7cZLRpcKMa4wOch1ewGnsfvHHRYO0FEFSNpPJChE8/edit?usp=sharing)
