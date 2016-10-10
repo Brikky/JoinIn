@@ -13,14 +13,14 @@ Designed and developed over week long sprint.
 
 ### Technologies Used
 ___
-|                |             |
-|----------------|-------------|
-| * HTML         | * jQuery    |
-| * CSS          | * Ajax      |
-| * Bootstrap    | * Node.js   |
-| * Handlebars   | * Express   |
-| * Javascript   | * Mongoose  |
-| * MongoDB      |             |
+|               |            |
+|---------------|------------|
+|  HTML         |  jQuery    |
+|  CSS          |  Ajax      |
+|  Bootstrap    |  Node.js   |
+|  Handlebars   |  Express   |
+|  Javascript   |  Mongoose  |
+|  MongoDB      |  Heroku    |
 
 ## Planning
 ___
